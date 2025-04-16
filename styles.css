@@ -8,7 +8,7 @@
       color: white;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       z-index: 1000;
     }
 
