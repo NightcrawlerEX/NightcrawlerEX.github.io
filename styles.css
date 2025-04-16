@@ -10,6 +10,7 @@
       align-items: center;
       justify-content: flex-start;
       z-index: 1000;
+    padding: 20px;
     }
 
     body {
