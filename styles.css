@@ -13,9 +13,10 @@
     padding: 20px;
     }
 
-    body {
-      margin: 0;
-      padding-top: 100px; /* offset to prevent content from being hidden */
+body {
+    margin: 0;
+    padding-top: 100px; /* offset to prevent content from being hidden */
+    font-family: 'Nunito', sans-serif;
     }
 
     .content {
