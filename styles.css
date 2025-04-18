@@ -29,10 +29,9 @@ body {
     margin: 0;
     padding-top: 150px; /* offset to prevent content from being hidden */
     font-family: 'Nunito', sans-serif;
-    background-color: #181c1b;
+    background-color: #000;
     }
 
     .content {
       height: 2000px; /* just to demonstrate scrolling */
-      background: linear-gradient(#181c1b, #000);
     }
