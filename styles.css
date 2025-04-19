@@ -34,21 +34,21 @@
 .title {
   flex-grow: 1;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .burger {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 25px;
-  height: 20px;
+  width: 20px;
+  height: 15px;
   cursor: pointer;
   color: white;
 }
 
 .burger span {
-  height: 1px;
+  height: 2px;
   background: gray;
   border-radius: 2px;
 }
