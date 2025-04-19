@@ -12,11 +12,23 @@
   <div class="topnav">
     <img src="IMG_9030.jpeg" alt="Logo" class="logo" />
     <div class="title">HopSpot</div>
-     <div class="burger">
+     <div class="burger" onclick="toggleMenu()">
       <span></span>
       <span></span>
     </div>
   </div>
+  <!-- Navigation menu -->
+  <div class="nav-menu" id="navMenu">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('navMenu');
+      menu.classList.toggle('show');
+    }
+  </script>
 
   <div class="content">
     <div class="banner">
