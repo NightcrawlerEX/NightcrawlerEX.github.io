@@ -14,7 +14,7 @@
 /* Nav bar at top of page */
 .topnav {
   position: fixed;
-  top: 100;
+  top: 0;
   left: 0;
   display: flex;
   align-items: center;
@@ -84,12 +84,13 @@ body {
     
 /* Navigation menu */
 .nav-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: none;
   background-color: #000;
   padding: 20px;
-  position: absolute;
-  top: 60px;
-  right: 20px;
   border-radius: 8px;
 }
 
