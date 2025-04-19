@@ -54,11 +54,9 @@
 }
     
 .banner {
-      background-color: #2a4730; /* Subtle green tint */
-      color: #d1ffd6; /* Light green text */
       padding: 12px 24px;
       border-radius: 12px;
-      font-size: 16px;
+      font-size: 32px;
       font-weight: 500;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
       text-align: center;
