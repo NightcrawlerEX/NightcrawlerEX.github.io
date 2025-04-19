@@ -77,3 +77,30 @@ body {
     .content {
       height: 2000px; /* just to demonstrate scrolling */
     }
+    
+    
+    
+    
+    
+/* Navigation menu */
+.nav-menu {
+  display: none;
+  background-color: #000;
+  padding: 20px;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  border-radius: 8px;
+}
+
+.nav-menu a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+/* Show menu */
+.nav-menu.show {
+  display: block;
+}
