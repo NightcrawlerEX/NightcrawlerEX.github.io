@@ -23,6 +23,7 @@
   background-color: #000;
   color: var(--almost-white);
   width: 100%;
+  z-index: 9999;
 }
     
 .logo {
