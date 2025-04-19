@@ -4,7 +4,7 @@
   --black-80:  #121212;   /* soft UI black (great for backgrounds) */
   --black-70:  #1a1a1a;   /* slate black */
   --black-60:  #2a2a2a;   /* gunmetal / dark gray */
-  --almost-white: #FAFAFA;
+  --almost-white: #FFFAFA;
 }
 
 *, *::before, *::after {
