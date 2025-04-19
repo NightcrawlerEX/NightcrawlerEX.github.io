@@ -4,6 +4,7 @@
   --black-80:  #121212;   /* soft UI black (great for backgrounds) */
   --black-70:  #1a1a1a;   /* slate black */
   --black-60:  #2a2a2a;   /* gunmetal / dark gray */
+  --almost-white: #181920;
 }
 
 *, *::before, *::after {
@@ -20,7 +21,7 @@
   justify-content: space-between;
   padding: 17px 20px;
   background-color: #000;
-  color: white;
+  color: var(--almost-white);
   width: 100%;
 }
     
@@ -44,7 +45,7 @@
   width: 20px;
   height: 10px;
   cursor: pointer;
-  color: white;
+  color: var(--almost-white);
 }
 
 .burger span {
@@ -58,10 +59,10 @@
   font-size: 32px;
   font-weight: 500;
   text-align: center;
-  color: white;
+  color: var(--almost-white);
 }
 .subbanner {
-  color: white;
+  color: var(--almost-white);
   text-align: center;
 }
 
