@@ -53,6 +53,17 @@
   background: var(--almost-white);
   border-radius: 2px;
 }
+.banner {
+  opacity: 0;
+      transform: translateY(100px);
+      animation: slideFadeIn 1s ease-out forwards;
+}
+@keyframes slideFadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+}
     
 .banner {
   padding: 12px 24px;
