@@ -6,6 +6,10 @@
   --black-60:  #2a2a2a;   /* gunmetal / dark gray */
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 .topnav {
       position: fixed;
   top: 0;
