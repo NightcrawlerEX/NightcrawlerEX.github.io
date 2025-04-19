@@ -44,12 +44,12 @@
   width: 20px;
   height: 10px;
   cursor: pointer;
-  color: red;
+  color: white;
 }
 
 .burger span {
   height: 2px;
-  background: gray;
+  background: white;
   border-radius: 2px;
 }
     
