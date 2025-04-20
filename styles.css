@@ -193,7 +193,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 20px; /* space between buttons */
-  margin: 20px 150px 20px 20px;
+  margin-top: 150px;
 }
     
 /* Style for each store button */
