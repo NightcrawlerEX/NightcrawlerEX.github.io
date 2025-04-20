@@ -84,6 +84,13 @@
   text-align: center;
 }
 
+.text-replaceme {
+  font-size: 20px;
+  color: #CCCCCC;
+  text-align: center;
+  margin-top: 100px;
+}
+
 body {
     margin: 0;
     padding-top: 300px; /* offset to prevent content from being hidden */
