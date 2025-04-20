@@ -129,3 +129,22 @@ body {
 .nav-menu.show {
   display: block;
 }
+
+.image-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .image-wrapper img {
+      width: 100%;
+      display: block;
+    }
+
+    .image-wrapper::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: radial-gradient(ellipse at center, transparent 60%, black 100%);
+      pointer-events: none;
+      }
