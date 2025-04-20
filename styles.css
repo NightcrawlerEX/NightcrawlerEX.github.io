@@ -159,7 +159,7 @@ body {
   background: radial-gradient(
     ellipse at center,
     rgba(0, 0, 0, 0) 60%,
-    rgba(0, 0, 0, 0.8) 85%,
+    #121212 85%,
     #121212 100%
   );
   z-index: 2;
