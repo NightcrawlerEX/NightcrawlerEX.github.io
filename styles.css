@@ -165,3 +165,23 @@ body {
   z-index: 2;
 }
 
+.fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #BAD754; /* your highlight color */
+  color: black;
+  border: none;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 10000;
+}
+
+.fab:hover {
+  background-color: #a8c246;
+}
