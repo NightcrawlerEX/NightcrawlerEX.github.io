@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HopSpot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="topnav">
+    <img src="Logo=Default.png" alt="Logo" class="logo" />
+    <div class="title">HopSpot</div>
+     <div class="burger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <!-- Navigation menu -->
+  <div class="nav-menu" id="navMenu">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Become a Vendor</a>
+    <a href="#">Contact Us</a>
+  </div>
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('navMenu');
+      menu.classList.toggle('show');
+    }
+  </script>
+  <script>
+  function scrollDown() {
+    window.scrollBy({
+      top: 850, // Change this value to whatever scroll amount you want
+      left: 0,
+      behavior: 'smooth'
+    });
+  }
+</script>
+
+  <div class="content">
+    <div class="banner">
+     Become a Vendor
+  </div>
+  <div class="subbanner">
+    HopSpot provides real time updates of venues and other stuff
+    here are some more words
+  </div>
+  
+  <div class="store-buttons">
+    <!-- App Store Button -->
+    <a href="https://www.apple.com/app-store/" target="_blank" class="store-button">
+      <img src="app-store-icon.svg" alt="Download on the App Store">
+    </a>
+    
+    <!-- Google Play Store Button -->
+    <a href="https://play.google.com/store" target="_blank" class="store-button">
+      <img src="play-store-icon.png" alt="Get it on Google Play">
+    </a>
+  </div>
+  
+  <div class="image-wrapper">
+    <img src="IMG_9052.jpeg" alt="Image with Black Fade">
+  </div>
+  <div class="text-replaceme">
+    See things on a map and whatnot and venues and other stuff
+    and cab view promotions also. There is much more 
+    text to be written here but yeah.
+  </div>
+  <button class="fab" onclick="scrollDown()">↓</button>
+</body>
+</html>
