@@ -134,6 +134,7 @@ body {
   max-width: 600px;
   margin-top: 400px;
   display: block;
+  position: relative;
 }
 
 .image-wrapper img {
