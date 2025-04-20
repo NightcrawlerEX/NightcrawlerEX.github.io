@@ -29,6 +29,15 @@
       menu.classList.toggle('show');
     }
   </script>
+  <script>
+  function scrollDown() {
+    window.scrollBy({
+      top: 500, // Change this value to whatever scroll amount you want
+      left: 0,
+      behavior: 'smooth'
+    });
+  }
+</script>
 
   <div class="content">
     <div class="banner">
@@ -47,5 +56,6 @@
     and cab view promotions also. There is much more 
     text to be written here but yeah.
   </div>
+  <button class="fab" onclick="scrollDown()">↓</button>
 </body>
 </html>
