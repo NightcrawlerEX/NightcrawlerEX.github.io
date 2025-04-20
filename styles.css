@@ -141,10 +141,26 @@ body {
   display: block;
 }
 
+/*
 .image-wrapper::after {
   content: '';
   /*position: absolute;*/
   /*top: 0; left: 0; right: 0; bottom: 0;*/
-  background: radial-gradient(ellipse at center, transparent 60%, black 100%);
+  /*background: radial-gradient(ellipse at center, transparent 60%, black 100%);
   pointer-events: none;
+}*/
+
+.image-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 85%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  z-index: 2;
 }
+
